@@ -1,0 +1,13 @@
+<div id="search-component">
+  <h3>Pet Search</h3>
+ 
+  <input #searchBox id="search-box" placeholder="探したい子の名前を入力してね🌟" (keyup)="search(searchBox.value)">
+ 
+  <ul class="search-result">
+    <li *ngFor="let pet of pets$ | async" >
+      <a routerLink="/detail/{{pet.id}}">
+        {{pet.name}}
+      </a>
+    </li>
+  </ul>
+</div>

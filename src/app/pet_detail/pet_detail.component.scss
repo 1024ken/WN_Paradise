@@ -1,0 +1,32 @@
+h2 {
+  color: #fff;
+  font-size: 2em;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+div {
+  color: #fff;
+  font-size: 1.1em;
+
+  span {
+    color: #fff;
+    font-size: 1.1em;
+  }
+}
+
+* {
+  font-size: 1.05em;
+  font-family: serif;
+  padding: 0.2em 0.2em 0.2em 0.6em;
+}
+
+button {
+  color: #696969;
+  font-family: serif;
+  padding: 0.5em 2em;
+}
+
+button:hover {
+  color: #fff;
+}

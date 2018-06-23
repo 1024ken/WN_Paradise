@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 2em;
+}
+
+body, input[text], button {
+  color: #696969;
+  font-family: serif;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2em;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+h3 {
+  color: #fff;
+  font-size: 2em;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+h4 {
+  color: #696969;
+  font-size: 1.2em;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+h4:hover {
+  color: #fff;
+  font-size: 1.2em;
+  font-family: serif;
+  font-weight: lighter;
+}
+
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+
+button {
+  font-size: 1em;
+  font-family: serif;
+  background: -webkit-linear-gradient(top, #fff 0%, #039be5 100%);
+  background: linear-gradient(to bottom, #fff 0%, #039be5 100%);
+  border: none;
+  margin: 0.5em 0.5em;
+  padding: 0.5em 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+button:hover {
+  color: #fff;
+  background: -webkit-linear-gradient(top, #EEFFFF 0%, #0000CC 100%);
+  background: linear-gradient(to bottom, #EEFFFF 0%, #0000CC 100%);
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #fff;
+  cursor: auto;
+}
+
+/* Navigation link styles */
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: serif;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+nav a:visited, a:link {
+  color: #696969;
+}
+
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+
+nav a.active {
+  color: #039be5;
+}
+
+/* everywhere else */
+* {
+  font-family: serif;
+}
